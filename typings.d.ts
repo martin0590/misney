@@ -7,6 +7,15 @@ type Genres = {
   genres: Genre[]
 }
 
+type GenrePageProps = {
+  params: {
+    id: string
+  },
+  searchParams: {
+    genre: string
+  }
+}
+
 type SearchResults = {
   page: number
   results: Movie[]
