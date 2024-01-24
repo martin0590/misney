@@ -35,3 +35,12 @@ type MovieCarouselProps = {
   movies: Movie[]
   isVertical?: boolean
 }
+
+type CarouselBannerWrapperProps = {
+  id?: string,
+  keywords?: string
+}
+
+type CarouselBanner = {
+  movies: Movie[]
+}
