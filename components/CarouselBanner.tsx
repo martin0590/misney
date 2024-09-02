@@ -12,7 +12,7 @@ const CarouselBanner = ({ movies }: CarouselBanner) => {
   return (
     <div 
       ref={emblaRef}
-      className='overflow-hidden lg:-mt-40 relative cursor-pointer'
+      className='overflow-hidden lg:-mt-40 relative cursor-grab'
     >
       <div className='flex'>
         {movies.map(movie => (

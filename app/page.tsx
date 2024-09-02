@@ -9,8 +9,6 @@ export default async function Home() {
 
   return (
     <main className="">
-      <h1>Hello Application</h1>
-      
       <CarouselBannerWrapper />
       
       <div className="flex flex-col space-y-2 xl:-mt-48">
